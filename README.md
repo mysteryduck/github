@@ -5,6 +5,7 @@
 * [Setup Git on RStudio](#setup-git-on-rstudio)
 * [Create a new GitHub repository](#create-a-new-github-repository)
 * [Create a new RStudio project](#create-a-new-rstudio-project)
+* [Using Git in RStudio](#using-git-in-rstudio)
 * [Useful resources](#useful-resources)
 
 
@@ -89,8 +90,9 @@ project you're working on). To do this, click **New**
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/1-1.png" height="500">
 
-Choose a short, descriptive name for your repository, and remember to 
-generate a README file
+Choose a short, descriptive name for your repository and 
+**Initialize this repository with a README**. Since this is a tutorial and not
+a real project, this repository has been named "test".
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/1-2.png" height="500">
 
@@ -101,7 +103,6 @@ Now **copy** the URL associated with your GitHub repository to your clipboard
 
 
 ## Create a new RStudio project
-
 In RStudio, click **File** > **New project...**
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-1.png" height="300">
@@ -117,23 +118,37 @@ Select the option to clone a project from a **Git** repository
 **Paste** your **Repository URL** into the first box, then click **Browse...** 
 and navigate to the git folder on your desktop. If you don't have a git folder 
 on your desktop then make one, as it's good practice to keep all of your 
-projects together and organised. RStudio will create a new folder that will
-will mirror the contents of your Git repository (so make sure you don't already
-have a folder with the same name as your repository, as this will cause 
-problems). 
+projects together and well organised. RStudio will create a new subdirectory 
+that will mirror the contents of your Git repository (so make sure you 
+don't already have a folder with the same name as the repository you created, 
+as this will cause problems). Now click **Create Project**
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-4.png" height="500">
 
 Congratulations! You have successfully created a new RStudio project. In the 
-example below, the project is called "test". A new directory, "test", has been 
-created inside the git folder on your desktop (this is now your working 
-directory). Inside this directory are three files, including a RStudio project 
-file (test.Rproj) and your GitHub repository README file. 
+example below, the RStudio project is called "test". A new directory, "test", 
+has been created inside the git folder on your desktop (this is now your  
+working directory). Inside this directory are three files, including an RStudio  
+project file (test.Rproj), a GitHub README file, and an invisible .gitignore 
+file. 
 
 Note the appearance of a new **Git** tab next to **Connections**. This is 
 important.
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-5.png" height="500">
+
+
+## Using Git in RStudio
+
+Open *README.md* by clicking on the file in the Files tab and look at the 
+**Git** tab. 
+
+<img src="https://github.com/mysteryduck/github/blob/master/img/2-6.png" height="500">
+
+
+<img src="https://github.com/mysteryduck/github/blob/master/img/2-7.png" height="500">
+
+
 
 
 
