@@ -236,7 +236,7 @@ local and remote versions are identical).
 
 ## Final remarks
 
-RStudio offers integrated version control, which is useful for <u>daily tasks</u>
+RStudio offers integrated version control, which is useful for *daily tasks*
 such as pushing, pulling, and reviewing changes (click on **Diff** in the 
 **Git** tab). However, this is just the tip of the iceberg. If you have time, 
 why not take a look at the links below. Try the interactive tutorials in 
@@ -251,5 +251,6 @@ tab with your own repository.
 * [R packages - Git and GitHub, by Hadley Wickham](http://r-pkgs.had.co.nz/git.html)
 * [Pro Git, by Scott Chacon and Ben Straub ](https://git-scm.com/book/en/v2)
 * [Learn Git with GitKraken](https://www.gitkraken.com/learn-git)
+* [Github Flavored Markdown](https://help.github.com/en/github/writing-on-github)
 
 
