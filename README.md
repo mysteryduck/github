@@ -49,11 +49,26 @@ Paste the public key that you copied from RStudio into the box and click
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/0-9.png" height="500">
 
+Now back in RStudio, tell Git your user name and email address (these are used 
+to label each commit to GitHub). Make sure the email address you enter is the
+same as the one you registered on GitHub.
 
+```{r}
+install(usethis)
+library(usethis)
 
-## Setup Git on RStudio
+use_git_config(
+  scope = "user",
+  user.name = "insert_github_username_here",
+  user.email = "insert_email_address_here"
+)
+```
 
+Check that your username and email address was entered correctly
 
+```{r}
+system("git config --global --list")
+```
 
 
 
@@ -89,6 +104,7 @@ Copy and paste your GitHub repository URL into the first box
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-4.png" height="500">
 
 
+## Creat a new project
 
 
 
