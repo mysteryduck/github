@@ -9,6 +9,12 @@
 * [Useful resources](#useful-resources)
 
 
+## Prerequisites
+
+1. Create a GitHub account with your academic email address
+2. Go to https://education.github.com, click **Get benefits**, and follow the 
+instructions
+
 
 ## Setup Git on RStudio
 
@@ -17,14 +23,16 @@ In RStudio, click on the
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/0-1.png" height="200">
 
-Go down to the **GIT/SVN** tab and ensure **Enable version control interface for RStudio projects** is checked.
- 
-Note that clicking on the **Using Version Control with RStudio** link will take 
-you to a site that describes how to set up Git and lists some excellent 
-resources to help you learn more about Git. Ignore this for now. 
+Go down to the **GIT/SVN** tab and ensure 
+**Enable version control interface for RStudio projects** is checked. Also, 
+make sure you have a **Git executable**. If this box is empty, click on the 
+**Using Version Control with RStudio** link and scroll down to the 
+**Installation** section. This will take you to a site that describes how to 
+install Git.
 
-Instead, we're now going to encrypt communication between our laptops and GitHub. 
-To do this we need to generate a certificate. Click on **Create RSA Key...**
+Now that we're sure Git is installed, we're going to set up encryption between 
+our laptop and GitHub. To do this we need to generate a certificate. Click on 
+**Create RSA Key...**
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/0-2.png" height="500">
 
@@ -160,12 +168,14 @@ local directory is identical to the one in your remote directory. That's why
 you can't see it in the **Git** tab. Instead, `.gitignore` and `test.Rproj`
 are listed with yellow **Status** question marks. What do these icons mean?
 
-* "?" - Files or directories that don't currently exist in the git repository 
+* "?" - Files or directories that don't currently exist in your git repository 
 (you either want to commit these or add them to `.gitignore`)
 * "A" - Files that have been staged and are ready to commit (you're in the 
 process of committing these)
 * "M" - Files that are modified versions of those in the repository (you 
 definately want to commit these)
+* "D" - Files that are no longer in your local directory (you want to
+commit these to GitHub)
 
 Open the `README.md` file by clicking on its filename in the **Files** tab. 
 Does this look familiar? (Compare the contents of this file to your
