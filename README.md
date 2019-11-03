@@ -129,7 +129,7 @@ Congratulations! You have successfully created a new RStudio project. In the
 example below, the RStudio project is called `test`. A new directory, `test`, 
 has been created inside the git folder on your desktop (this is now your  
 working directory). Inside this directory are three files, including an RStudio  
-project file (`test.Rproj`), a GitHub `READM.md` file, and an invisible `.gitignore` 
+project file (`test.Rproj`), a GitHub `README.md` file, and an invisible `.gitignore` 
 file. 
 
 Note the appearance of a new **Git** tab next to **Connections**. This is 
@@ -140,8 +140,16 @@ important.
 
 ## Using Git in RStudio
 
+Compare the contents of your working directory to the files listed in the
+**Git** tab. The **Git** tab is a useful tool that shows you how your remote
+directory (your GitHub repository) differs from your local directory 
+(your working directory). Currently, 
+
+Note that the `README.md` file in your working (local) directory
+
+
 Open `README.md` by clicking on the file in the **Files** tab and look at the 
-**Git** tab. 
+**Git** tab. It's not there! Why? The **Status** icons 
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-6.png" height="500">
 
@@ -149,6 +157,7 @@ Open `README.md` by clicking on the file in the **Files** tab and look at the
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-7.png" height="500">
 
 
+<img src="https://github.com/mysteryduck/github/blob/master/img/2-8.png" height="500">
 
 
 
