@@ -177,6 +177,13 @@ Note that GitHub README.md files are written in GFM (GitHub Flavored Markdown).
 
 Click
 
+<img src="https://github.com/mysteryduck/github/blob/master/img/3-1.png" height="500">
+
+<img src="https://github.com/mysteryduck/github/blob/master/img/3-2.png" height="500">
+
+<img src="https://github.com/mysteryduck/github/blob/master/img/3-3.png" height="500">
+
+<img src="https://github.com/mysteryduck/github/blob/master/img/3-4.png" height="500">
 
 
 ## Useful resources
