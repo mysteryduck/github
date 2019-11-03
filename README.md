@@ -1,8 +1,15 @@
 # GitHub tutorial (for RStudio)
 
+## Contents
+
+* [Setup Git on RStudio](#setup-git-on-rstudio)
+* [Create a new GitHub repository](#create-a-new-github-repository)
+* [Create a new RStudio project](#create-a-new-rstudio-project)
+* [Useful resources](#useful-resources)
+
+
+
 ## Setup Git on RStudio
-
-
 
 In RStudio, click on the 
 **RStudio** menu bar and go to **Preferences**
@@ -108,11 +115,10 @@ Select the option to clone a project from a GitHub repository
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-4.png" height="500">
 
 
-## Creat a new project
 
 
 
-Useful resources:
+## Useful resources
 
 * https://learngitbranching.js.org
 
