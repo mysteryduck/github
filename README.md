@@ -202,7 +202,7 @@ You'll need to enter your password
 
 Congratulations! You've successfully pushed these changes to GitHub
 
-<img src="https://github.com/mysteryduck/github/blob/master/img/3-4.png" height="500">
+<img src="https://github.com/mysteryduck/github/blob/master/img/3-5.png" height="500">
 
 
 ## Useful resources
