@@ -50,7 +50,7 @@ Paste the public key that you copied from RStudio into the box and click
 <img src="https://github.com/mysteryduck/github/blob/master/img/0-9.png" height="500">
 
 Now back in RStudio, tell Git your user name and email address (these are used 
-to label each commit to GitHub). Make sure the email address you enter is the
+to label each commit to GitHub). Make sure the email address you enter here is the
 same as the one you registered on GitHub.
 
 ```{r}
@@ -72,9 +72,9 @@ system("git config --global --list")
 
 
 
+## Create a new GitHub repository
 
-
-Create a new GitHub repository
+Click **New**
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/1-1.png" height="500">
 
@@ -83,11 +83,15 @@ with a README file
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/1-2.png" height="500">
 
-Now copy and paste the URL associated with your GitHub repository
+Now **copy** the URL associated with your GitHub repository
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/1-3.png" height="500">
 
-In RStudio, create a new project
+
+
+## Create a new RStudio project
+
+In RStudio, click **File** > **New project...**
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-1.png" height="200">
 
@@ -99,7 +103,7 @@ Select the option to clone a project from a GitHub repository
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-3.png" height="500">
 
-Copy and paste your GitHub repository URL into the first box
+**Paste** the URL from your GitHub repository into the first box
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-4.png" height="500">
 
