@@ -152,17 +152,30 @@ local directory is identical to the one in your remote directory. That's why
 you can't see it in the **Git** tab. Instead, `.gitignore` and `test.Rproj`
 are listed with yellow **Status** question marks. What do these icons mean?
 
-* "?" - Files or directories that don't currently exist in the git repository
-* "A" - Files that have been staged and are ready to commit
-* "M" - Files that are modified versions of those in the repository 
+* "?" - Files or directories that don't currently exist in the git repository 
+(you either want to commit these or add them to `.gitignore`)
+* "A" - Files that have been staged and are ready to commit (you're in the 
+process of committing these)
+* "M" - Files that are modified versions of those in the repository (you 
+definately want to commit these)
 
+Open the `README.md` file by clicking on the filename in the **Files** tab. 
+Does this look familiar? (Compare the contents of this file to your GitHub
+repository)
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-6.png" height="500">
 
+Usually a GitHub README will describe the contents of the GitHub repository or 
+give an example of how to use the contents of said repository. If we make
+edits to the README file, the **status** changes to "M". This means the file
+in your local directory is a modified version of the file in your remote
+directory (on GitHub).
+
+Note that GitHub README.md files are written in GFM (GitHub Flavored Markdown). 
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-7.png" height="500">
 
-
+Click
 
 
 
