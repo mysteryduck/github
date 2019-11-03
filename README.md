@@ -7,6 +7,7 @@
 * [Create a new RStudio project](#create-a-new-rstudio-project)
 * [Using Git in RStudio](#using-git-in-rstudio)
 * [Useful resources](#useful-resources)
+* [Final remarks](final-remarks)
 
 
 ## Prerequisites
@@ -23,12 +24,13 @@ In RStudio, click on the
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/0-1.png" height="200">
 
-Go down to the **GIT/SVN** tab and ensure 
-**Enable version control interface for RStudio projects** is checked. Also, 
-make sure you have a **Git executable**. If this box is empty, click on the 
-**Using Version Control with RStudio** link and scroll down to the 
-**Installation** section. This will take you to a site that describes how to 
-install Git.
+Go down to the **GIT/SVN** tab and ensure that 
+**Enable version control interface for RStudio projects** is checked. 
+
+While you're here, make sure you have a **Git executable**. If this box is 
+empty, click on the **Using Version Control with RStudio** link and scroll 
+down to the **Installation** section. This will take you to a site that 
+describes how to install Git on your machine.
 
 Now that we're sure Git is installed, we're going to set up encryption between 
 our laptop and GitHub. To do this we need to generate a certificate. Click on 
@@ -44,11 +46,11 @@ It should look like this
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/0-4.png" height="500">
 
-Now you need to copy your public key and register it with GitHub. Click on **View public key**
+Now you need to copy your public key and register it with GitHub, so click on **View public key**
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/0-5.png" height="500">
 
-Copy the key to your clipboard
+.. and copy the key to your clipboard
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/0-6.png" height="500">
 
@@ -66,8 +68,8 @@ Paste the public key that you copied from RStudio into the box and click
 <img src="https://github.com/mysteryduck/github/blob/master/img/0-9.png" height="500">
 
 Now back in RStudio, tell Git your user name and email address (these are used 
-to label each commit to GitHub). Make sure the email address you enter here is the
-same as the one you registered on GitHub.
+to label each commit that you make to GitHub). Make sure the email address you 
+enter here is the same as the one that you registered on GitHub.
 
 ```{r}
 install(usethis)
@@ -80,8 +82,8 @@ use_git_config(
 )
 ```
 
-... or if for some reason you can't install `usethis`, then click on the 
-**Terminal** tab and input the following:
+.. or if for some reason you can't install `usethis`, then click on the 
+**Terminal** tab in RStudio and input the following:
 
 ```{r}
 git config --global user.name insert_github_username_here
@@ -90,10 +92,11 @@ git config --global user.email insert_email_address_here
 
 RStudio will now remember your details, so don't worry about having to enter 
 them again in the future. You should, however, check that your username and 
-email address was entered correctly!
+email address was entered correctly! So from the terminal tab, input the 
+following:
 
 ```{r}
-system("git config --global --list")
+git config --global --list
 ```
 
 
@@ -231,11 +234,22 @@ local and remote versions are identical).
 <img src="https://github.com/mysteryduck/github/blob/master/img/4-2.png" height="500">
 
 
+## Final remarks
+
+RStudio offers integrated version control, which is useful for <u>daily tasks</u>
+such as pushing, pulling, and reviewing changes (click on **Diff** in the 
+**Git** tab). However, this is just the tip of the iceberg. If you have time, 
+why not take a look at the links below. Try the interactive tutorials in 
+"Learn Git Branching" by Peter Cottle and experiment in RStudio's **Terminal** 
+tab with your own repository.
+
+
+
 ## Useful resources
 
-* https://learngitbranching.js.org
-* http://r-pkgs.had.co.nz/git.html
-* https://git-scm.com/book/en/v2
-* https://www.gitkraken.com/learn-git
+* [Learn Git Branching, by Peter Cottle](https://learngitbranching.js.org)
+* [R packages - Git and GitHub, by Hadley Wickham](http://r-pkgs.had.co.nz/git.html)
+* [Pro Git, by Scott Chacon and Ben Straub ](https://git-scm.com/book/en/v2)
+* [Learn Git with GitKraken](https://www.gitkraken.com/learn-git)
 
 
