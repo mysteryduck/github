@@ -71,7 +71,9 @@ use_git_config(
 )
 ```
 
-Check that your username and email address was entered correctly
+RStudio will now remember your details, so don't worry about having to enter 
+them again in the future. You should, however, check that your username and 
+email address was entered correctly!
 
 ```{r}
 system("git config --global --list")
@@ -81,12 +83,14 @@ system("git config --global --list")
 
 ## Create a new GitHub repository
 
-Click **New**
+It's important that you use version control in your project workflow and to do 
+this, you need to set up a new GitHub repository (you should make a new 
+repository for each project you're working on). To do this, click **New**
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/1-1.png" height="500">
 
-Choose a short, descriptive name for your project, and initialise the project 
-with a README file
+Choose a short, descriptive name for your repository, and remember to 
+generate a README file
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/1-2.png" height="500">
 
