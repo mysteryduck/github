@@ -100,7 +100,7 @@ Now **copy** the URL associated with your GitHub repository
 
 In RStudio, click **File** > **New project...**
 
-<img src="https://github.com/mysteryduck/github/blob/master/img/2-1.png" height="200">
+<img src="https://github.com/mysteryduck/github/blob/master/img/2-1.png" height="300">
 
 Make sure your new project includes version control
 
