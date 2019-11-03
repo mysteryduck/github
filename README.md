@@ -123,6 +123,7 @@ practice to keep all of your projects together and organised.
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-4.png" height="500">
 
 
+<img src="https://github.com/mysteryduck/github/blob/master/img/2-5.png" height="500">
 
 
 
