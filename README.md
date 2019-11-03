@@ -110,7 +110,10 @@ Select the option to clone a project from a GitHub repository
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-3.png" height="500">
 
-**Paste** the URL from your GitHub repository into the first box
+**Paste** your **Repository URL** into the first box and 
+**Create project as a subdirectory of** the git folder on your desktop. If
+you don't have a git folder on your desktop then make one, as it's good 
+practice to keep all of your projects together and organised.
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-4.png" height="500">
 
