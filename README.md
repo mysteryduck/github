@@ -202,10 +202,12 @@ Congratulations again! You've successfully pushed these changes to GitHub.
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/3-5.png" height="500">
 
-
+Note that `README.md` is no longer listed in the **Git** tab (because both the
+local and remote versions are identical).
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/4-1.png" height="500">
 
+... and the GitHub README is immediately updated. 
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/4-2.png" height="500">
 
