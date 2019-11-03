@@ -96,6 +96,9 @@ a real project, this repository has been named `test`.
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/1-2.png" height="500">
 
+Congratulations! You have successfully created a new GitHub repository, 
+containing a single `README.md` file. Remember this for later.
+
 Now **copy** the URL associated with your GitHub repository to your clipboard
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/1-3.png" height="500">
@@ -128,9 +131,9 @@ as this will cause problems). Now click **Create Project**
 Congratulations! You have successfully created a new RStudio project. In the 
 example below, the RStudio project is called `test`. A new directory, `test`, 
 has been created inside the git folder on your desktop (this is now your  
-working directory). Inside this directory are three files, including an RStudio  
-project file (`test.Rproj`), a GitHub `README.md` file, and an invisible `.gitignore` 
-file. 
+working directory). Inside this directory are three files, including a GitHub 
+`README.md` file (imported from your GitHub repository), an RStudio project
+file (`test.Rproj`), and an invisible `.gitignore` file (created by RStudio). 
 
 Note the appearance of a new **Git** tab next to **Connections**. This is 
 important.
@@ -143,13 +146,15 @@ important.
 Compare the contents of your working directory to the files listed in the
 **Git** tab. The **Git** tab is a useful tool that shows you how your remote
 directory (your GitHub repository) differs from your local directory 
-(your working directory). Currently, 
+(in this case `~Desktop/Git/test`). Currently, the `README.md` file in your  
+local directory is identical to the one in your remote directory. That's why 
+you can't see it in the **Git** tab. Instead, `.gitignore` and `test.Rproj`
+are listed with yellow **Status** question marks. What do these icons mean?
 
-Note that the `README.md` file in your working (local) directory
+* "?" - Files or directories that don't currently exist in the git repository
+* "A" - Files that have been staged and are ready to commit
+* "M" - Files that are modified versions of those in the repository 
 
-
-Open `README.md` by clicking on the file in the **Files** tab and look at the 
-**Git** tab. It's not there! Why? The **Status** icons 
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-6.png" height="500">
 
@@ -157,7 +162,6 @@ Open `README.md` by clicking on the file in the **Files** tab and look at the
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-7.png" height="500">
 
 
-<img src="https://github.com/mysteryduck/github/blob/master/img/2-8.png" height="500">
 
 
 
