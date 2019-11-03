@@ -1,4 +1,50 @@
-# github
+# GitHub tutorial (for RStudio)
+
+
+## Setup Git on RStudio
+
+First, we're now going to encrypt communication between our laptops and GitHub. To do 
+this we need to generate a certificate. In RStudio, click on the *RStudio* menu bar and go to *Preferences*
+
+<img src="https://github.com/mysteryduck/github/blob/master/img/0-1.png" height="400">
+
+Go down to the *GIT/SVN* tab and click on *Create RSA Key...*
+
+<img src="https://github.com/mysteryduck/github/blob/master/img/0-2.png" height="400">
+
+Click *Create* to generate your RSA key
+
+<img src="https://github.com/mysteryduck/github/blob/master/img/0-3.png" height="400">
+
+It should look like this
+
+<img src="https://github.com/mysteryduck/github/blob/master/img/0-4.png" height="400">
+
+Now you need to copy your public key and register it with GitHub
+
+<img src="https://github.com/mysteryduck/github/blob/master/img/0-5.png" height="400">
+
+Copy the key to your clipboard
+
+<img src="https://github.com/mysteryduck/github/blob/master/img/0-6.png" height="400">
+
+Then in GitHub, in your *Personal settings*, open the *SSH and GPG keys* tab 
+
+<img src="https://github.com/mysteryduck/github/blob/master/img/0-7.png" height="400">
+
+Create a *New SSH key*
+
+<img src="https://github.com/mysteryduck/github/blob/master/img/0-8.png" height="400">
+
+Paste the RSA key from your clipboard into the box and *Add SSH key* to your GiHub account
+
+<img src="https://github.com/mysteryduck/github/blob/master/img/0-9.png" height="400">
+
+
+
+
+
+
 
 
 Create a new GitHub repository
@@ -29,3 +75,12 @@ Select the option to clone a project from a GitHub repository
 Copy and paste your GitHub repository URL into the first box
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-4.png" height="400">
+
+
+
+
+
+Useful resources:
+
+* https://learngitbranching.js.org
+
