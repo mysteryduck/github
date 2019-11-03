@@ -186,7 +186,7 @@ repository on GitHub)
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-6.png" height="500">
 
-Usually a GitHub README (written in GitHub Flavored Markdown) will describe the 
+Usually a GitHub README (written in [GitHub Flavored Markdown](https://help.github.com/en/github/writing-on-github)) will describe the 
 contents of the GitHub repository or give an example of how to use the contents 
 of said repository, so let's do that now. Note that when we make edits to the 
 README file, its **Status** changes to "M". This means that the file in your 
@@ -251,6 +251,5 @@ tab with your own repository.
 * [R packages - Git and GitHub, by Hadley Wickham](http://r-pkgs.had.co.nz/git.html)
 * [Pro Git, by Scott Chacon and Ben Straub ](https://git-scm.com/book/en/v2)
 * [Learn Git with GitKraken](https://www.gitkraken.com/learn-git)
-* [Github Flavored Markdown](https://help.github.com/en/github/writing-on-github)
 
 
