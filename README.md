@@ -159,23 +159,24 @@ process of committing these)
 * "M" - Files that are modified versions of those in the repository (you 
 definately want to commit these)
 
-Open the `README.md` file by clicking on the filename in the **Files** tab. 
-Does this look familiar? (Compare the contents of this file to your GitHub
-repository)
+Open the `README.md` file by clicking on its filename in the **Files** tab. 
+Does this look familiar? (Compare the contents of this file to your
+repository on GitHub)
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-6.png" height="500">
 
 Usually a GitHub README will describe the contents of the GitHub repository or 
-give an example of how to use the contents of said repository. If we make
-edits to the README file, the **status** changes to "M". This means the file
-in your local directory is a modified version of the file in your remote
-directory (on GitHub).
+give an example of how to use the contents of said repository, so let's do that
+now. Note that when we make edits to the README file, its **status** changes 
+to "M". This means the file in your local directory is a modified version of 
+the file in your remote directory (on GitHub).
 
-Note that GitHub README.md files are written in GFM (GitHub Flavored Markdown). 
+Also note that GitHub README.md files are written in GFM (GitHub Flavored Markdown). 
+
+Click **Commit** to upload these changes to GitHub.
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-7.png" height="500">
 
-Click
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/3-1.png" height="500">
 
