@@ -168,7 +168,7 @@ repository on GitHub)
 Usually a GitHub README (written in GitHub Flavored Markdown) will describe the 
 contents of the GitHub repository or give an example of how to use the contents 
 of said repository, so let's do that now. Note that when we make edits to the 
-README file, its **status** changes to "M". This means that the file in your 
+README file, its **Status** changes to "M". This means that the file in your 
 local directory is no longer identical to the file in your remote directory 
 (on GitHub).
 
@@ -179,28 +179,26 @@ Click **Commit** to upload these changes to GitHub.
 The **RStudio: Review Changes** window has opened. Click on the **Staged** 
 checkbox next to `README.md` and enter a **Commit message**. Your message 
 should describe the changes you've made to the file you're uploading (in this
-case, an initial commit). 
-
-Note the red and green lines in the lower half of the screen. What do you think
-is happening here?
-
-Click **Commit**
+case, an initial commit). These changes are shown in the lower half of the 
+screen, with deletions and insertions highlighted in red and green, 
+respectively. Click **Commit** to continue.
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/3-1.png" height="500">
 
-`README.md` is now staged, with 7 insertions and 1 deletion. **Close** this window.
+Congratulations! `README.md` is now staged, with 7 insertions and 1 deletion. 
+**Close** this window.
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/3-2.png" height="500">
 
-Then **Push** all staged files to GitHub.
+Then **Push** all staged files (at the moment, just `README.md`) to GitHub.
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/3-3.png" height="500">
 
-You'll need to enter your password
+You'll need to enter your password..
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/3-4.png" height="500">
 
-Congratulations! You've successfully pushed these changes to GitHub
+Congratulations again! You've successfully pushed these changes to GitHub.
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/3-5.png" height="500">
 
