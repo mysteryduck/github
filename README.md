@@ -72,6 +72,14 @@ use_git_config(
 )
 ```
 
+... or if for some reason you can't install `usethis`, then click on the 
+**Terminal** tab and input the following:
+
+```{r}
+git config --global user.name insert_github_username_here
+git config --global user.email insert_email_address_here
+```
+
 RStudio will now remember your details, so don't worry about having to enter 
 them again in the future. You should, however, check that your username and 
 email address was entered correctly!
@@ -198,7 +206,8 @@ You'll need to enter your password..
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/3-4.png" height="500">
 
-Congratulations again! You've successfully pushed these changes to GitHub.
+Congratulations again! You've successfully pushed these changes to GitHub. 
+**Close** this window and the **Review Changes** window beneath it.
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/3-5.png" height="500">
 
@@ -211,7 +220,12 @@ local and remote versions are identical).
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/4-2.png" height="500">
 
+
 ## Useful resources
 
 * https://learngitbranching.js.org
+* http://r-pkgs.had.co.nz/git.html
+* https://git-scm.com/book/en/v2
+* https://www.gitkraken.com/learn-git
+
 
