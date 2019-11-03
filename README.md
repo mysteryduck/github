@@ -83,9 +83,9 @@ system("git config --global --list")
 
 ## Create a new GitHub repository
 
-It's important that you use version control in your project workflow and to do 
-this, you need to set up a new GitHub repository (you should make a new 
-repository for each project you're working on). To do this, click **New**
+It's important that you use version control in your project workflow, so let's 
+set up a new GitHub repository (you should make a new repository for each
+project you're working on). To do this, click **New**
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/1-1.png" height="500">
 
@@ -94,7 +94,7 @@ generate a README file
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/1-2.png" height="500">
 
-Now **copy** the URL associated with your GitHub repository
+Now **copy** the URL associated with your GitHub repository to your clipboard
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/1-3.png" height="500">
 
@@ -106,16 +106,17 @@ In RStudio, click **File** > **New project...**
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-1.png" height="300">
 
-Make sure your new project includes version control
+Since we're integrating version control into this project workflow, click **Version Control**
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-2.png" height="500">
 
-Select the option to clone a project from a GitHub repository
+Select the option to clone a project from a **Git** repository
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-3.png" height="500">
 
-**Paste** your **Repository URL** into the first box and 
-**Create project as a subdirectory of** the git folder on your desktop. If
+Now, **paste** your **Repository URL** into the first box and find somewhere to 
+store your work. This folder will mirror the contents of your Git repository. 
+Click **Browse...** and navigate to the git folder on your desktop. If
 you don't have a git folder on your desktop then make one, as it's good 
 practice to keep all of your projects together and organised.
 
