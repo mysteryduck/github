@@ -122,6 +122,14 @@ practice to keep all of your projects together and organised.
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-4.png" height="500">
 
+Congratulations! You have successfully created a new RStudio project. In the 
+example below, the project is called "test". A new directory, "test", has been 
+created inside the git folder on your desktop (this is now your working 
+directory). Inside this directory are three files, including a RStudio project 
+file (test.Rproj) and your GitHub repository README file. 
+
+Note the appearance of a new **Git** tab next to **Connections**. This is 
+important.
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-5.png" height="500">
 
