@@ -114,11 +114,13 @@ Select the option to clone a project from a **Git** repository
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-3.png" height="500">
 
-Now, **paste** your **Repository URL** into the first box and find somewhere to 
-store your work. This folder will mirror the contents of your Git repository. 
-Click **Browse...** and navigate to the git folder on your desktop. If
-you don't have a git folder on your desktop then make one, as it's good 
-practice to keep all of your projects together and organised.
+**Paste** your **Repository URL** into the first box, then click **Browse...** 
+and navigate to the git folder on your desktop. If you don't have a git folder 
+on your desktop then make one, as it's good practice to keep all of your 
+projects together and organised. RStudio will create a new folder that will
+will mirror the contents of your Git repository (so make sure you don't already
+have a folder with the same name as your repository, as this will cause 
+problems). 
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-4.png" height="500">
 
