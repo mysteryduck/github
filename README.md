@@ -128,12 +128,13 @@ as this will cause problems). Now click **Create Project**
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/2-4.png" height="500">
 
-Congratulations! You have successfully created a new RStudio project. In the 
-example below, the RStudio project is called `test`. A new directory, `test`, 
-has been created inside the git folder on your desktop (this is now your  
-working directory). Inside this directory are three files, including a GitHub 
-`README.md` file (imported from your GitHub repository), an RStudio project
-file (`test.Rproj`), and an invisible `.gitignore` file (created by RStudio). 
+Congratulations! You have successfully created a new RStudio project (now with
+added version control). In the example below, the RStudio project is called 
+`test`. A new directory, `test`, has been created inside the git folder on your 
+desktop (this is now your working directory). Inside this directory are three 
+files, including a GitHub `README.md` file (imported from your GitHub 
+repository), an RStudio project file (`test.Rproj`), and an invisible 
+`.gitignore` file (created by RStudio). 
 
 Note the appearance of a new **Git** tab next to **Connections**. This is 
 important.
@@ -146,7 +147,7 @@ important.
 Compare the contents of your working directory to the files listed in the
 **Git** tab. The **Git** tab is a useful tool that shows you how your remote
 directory (your GitHub repository) differs from your local directory 
-(in this case `~Desktop/Git/test`). Currently, the `README.md` file in your  
+(in this case `~Desktop/Git/test`). Currently, the `README.md` file in your 
 local directory is identical to the one in your remote directory. That's why 
 you can't see it in the **Git** tab. Instead, `.gitignore` and `test.Rproj`
 are listed with yellow **Status** question marks. What do these icons mean?
