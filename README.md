@@ -227,12 +227,6 @@ local and remote versions are identical).
 <img src="https://github.com/mysteryduck/github/blob/master/img/4-2.png" height="500">
 
 
-## Generate a package structure in RStudio
-
-One last thing! 
-
-
-
 
 ## Final remarks
 
