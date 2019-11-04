@@ -29,11 +29,9 @@ In RStudio, click on the
 Go down to the **GIT/SVN** tab and ensure that 
 **Enable version control interface for RStudio projects** is checked. 
 
-While you're here, make sure you have a **Git executable**, as well as an 
-**SVN executable**. If this box is empty, click on the 
-[**Using Version Control with RStudio**](https://support.rstudio.com/hc/en-us/articles/200532077?version=1.2.1335&mode=desktop) link and scroll 
+While you're here, make sure you have a **Git executable**. If this box is empty, you need to install Git. Click on the [**Using Version Control with RStudio**](https://support.rstudio.com/hc/en-us/articles/200532077?version=1.2.1335&mode=desktop) link and scroll 
 down to the **Installation** section. This will take you to a site that 
-describes how to install Git on your machine.
+describes how to install Git on your machine. Now **restart** RStudio.
 
 Now that we're sure Git is installed, we're going to set up encryption between 
 our laptop and GitHub. To do this we need to generate a certificate. Click on 
