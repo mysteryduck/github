@@ -6,6 +6,7 @@
 * [Create a new GitHub repository](#create-a-new-github-repository)
 * [Create a new RStudio project](#create-a-new-rstudio-project)
 * [Using Git in RStudio](#using-git-in-rstudio)
+* [Generate a package structure in RStudio](#generate-a-package-structure-in-rstudio)
 * [Final remarks](#final-remarks)
 * [Useful resources](#useful-resources)
 
@@ -20,7 +21,7 @@ instructions
 ## Setup Git on RStudio
 
 In RStudio, click on the 
-**RStudio** menu bar and go to **Preferences**
+**RStudio** menu bar and go to **Preferences** (or **Tools** and **Global Options** if you're using Windows)
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/0-1.png" height="200">
 
@@ -232,6 +233,13 @@ local and remote versions are identical).
 ... and the GitHub README is immediately updated. 
 
 <img src="https://github.com/mysteryduck/github/blob/master/img/4-2.png" height="500">
+
+
+## Generate a package structure in RStudio
+
+One last thing! 
+
+
 
 
 ## Final remarks
