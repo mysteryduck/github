@@ -6,8 +6,8 @@
 * [Create a new GitHub repository](#create-a-new-github-repository)
 * [Create a new RStudio project](#create-a-new-rstudio-project)
 * [Using Git in RStudio](#using-git-in-rstudio)
+* [Final remarks](#final-remarks)
 * [Useful resources](#useful-resources)
-* [Final remarks](final-remarks)
 
 
 ## Prerequisites
