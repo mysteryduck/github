@@ -75,7 +75,7 @@ to label each commit that you make to GitHub). Make sure the email address you
 enter here is the same as the one that you registered on GitHub.
 
 ```{r}
-install.packages(usethis)
+install.packages("usethis")
 library(usethis)
 
 use_git_config(
