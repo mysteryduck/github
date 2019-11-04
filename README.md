@@ -13,9 +13,10 @@
 
 ## Prerequisites
 
-1. Create a GitHub account with your academic email address
-2. Go to https://education.github.com, click **Get benefits**, and follow the 
-instructions
+1. **First**, create a GitHub account with your academic email address
+2. Verify your account
+3. Go to https://education.github.com, click **Students** or 
+**Get benefits for students**, and follow the instructions
 
 
 ## Setup Git on RStudio
