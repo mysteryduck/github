@@ -191,10 +191,10 @@ repository on GitHub)
 
 Usually a GitHub README (written in [GitHub Flavored Markdown](https://help.github.com/en/github/writing-on-github)) will describe the 
 contents of the GitHub repository or give an example of how to use the contents 
-of said repository, so let's do that now. Note that when we make edits to the 
-README file, its **Status** changes to "M". This means that the file in your 
-local directory is no longer identical to the file in your remote directory 
-(on GitHub).
+of said repository. Make some edits to `README.md` and **save** your file. Note 
+that when we make edits to the README file, its **Status** changes to "M". This 
+means that the file in your local directory is no longer identical to the file 
+in your remote directory (on GitHub).
 
 Click **Commit** to upload these changes to GitHub.
 
