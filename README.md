@@ -88,7 +88,7 @@ use_git_config(
 RStudio will now remember your details, so don't worry about having to enter 
 them again in the future. You should, however, check that your username and 
 email address was entered correctly! So from the terminal tab, input the 
-following:
+following (this will only work on a Mac):
 
 ```{r}
 git config --global --list
