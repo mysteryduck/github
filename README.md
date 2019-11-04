@@ -85,14 +85,6 @@ use_git_config(
 )
 ```
 
-.. or if for some reason you can't install `usethis`, then click on the 
-**Terminal** tab in RStudio and input the following:
-
-```{r}
-git config --global user.name insert_github_username_here
-git config --global user.email insert_email_address_here
-```
-
 RStudio will now remember your details, so don't worry about having to enter 
 them again in the future. You should, however, check that your username and 
 email address was entered correctly! So from the terminal tab, input the 
