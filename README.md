@@ -241,9 +241,13 @@ tab with your own repository.
 
 ## Useful resources
 
+
 * [Learn Git Branching, by Peter Cottle](https://learngitbranching.js.org)
 * [R packages - Git and GitHub, by Hadley Wickham](http://r-pkgs.had.co.nz/git.html)
 * [Pro Git, by Scott Chacon and Ben Straub ](https://git-scm.com/book/en/v2)
+* [git/github guide, by Karl Broman](https://kbroman.org/github_tutorial/)
 * [Learn Git with GitKraken](https://www.gitkraken.com/learn-git)
+* [Learn the Basics of Git in Under 10 Minutes, by Gowtham Venkatesan](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
+* [git - the simple guide, by Roger Dudler](https://rogerdudler.github.io/git-guide/)
 
 
